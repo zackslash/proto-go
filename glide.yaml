@@ -1,0 +1,5 @@
+package: github.com/fortifi/proto-go
+import: 
+- package: github.com/fortifi/proto
+  vcs: git
+  repo: https://github.com/fortifi/proto.git
