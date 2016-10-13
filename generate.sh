@@ -6,7 +6,7 @@ do
   package="${file%.*}"
   echo "Processing $package $f"
   mkdir -p $package
-  protoc -I vendor/github.com/fortifi/proto --go_out=plugins=grpc:$package $f
+  protoc -I vendor/github.com/fortifi/proto --go_out=plugins=grpc:../../../ $f
   git add $package/*
 done
 
@@ -18,7 +18,7 @@ do
   package="${file%.*}"
   echo "Processing $package $f"
   mkdir -p ftypes/$package
-  protoc -I vendor/github.com/fortifi/proto/ftypes --go_out=../../../ $f
+  protoc -I vendor/github.com/fortifi/proto --go_out=../../../ $f
 done
 
 git add ftypes/*
