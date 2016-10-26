@@ -1,8 +1,8 @@
 hash: 852461120faad866186c239770ed37219c042852b5d35691c0f55d75f4e79ba1
-updated: 2016-10-26T17:04:39.058783399+01:00
+updated: 2016-10-26T17:18:39.11703616+01:00
 imports:
 - name: github.com/fortifi/proto
-  version: c47ff2d16b7b3b1fa8f42da84b9cc2dfb4ce5a7c
+  version: 77e8e5925061ee9eaf95f875d4b2cdf262ea5b87
   repo: https://github.com/fortifi/proto.git
   vcs: git
 - name: github.com/golang/protobuf
