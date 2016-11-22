@@ -3,3 +3,5 @@ import:
 - package: github.com/fortifi/proto
   vcs: git
   repo: https://github.com/fortifi/proto.git
+- package: google.golang.org/grpc
+  version: v1.0.4

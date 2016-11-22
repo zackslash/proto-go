@@ -1,5 +1,5 @@
-hash: 852461120faad866186c239770ed37219c042852b5d35691c0f55d75f4e79ba1
-updated: 2016-11-22T12:18:30.705732951Z
+hash: 25e82a6655e82e79a3bcbea44740b62e08e2162893d5fabcda8c254c3fab9843
+updated: 2016-11-22T12:52:51.659462344Z
 imports:
 - name: github.com/fortifi/proto
   version: e5b6d49ecb30c3a67dd7aa03a964ca5bc19d9ece
@@ -22,7 +22,7 @@ imports:
   - lex/httplex
   - trace
 - name: google.golang.org/grpc
-  version: 63bd55dfbf781b183216d2dd4433a659c947648a
+  version: 777daa17ff9b5daef1cfdf915088a2ada3332bf0
   subpackages:
   - codes
   - credentials
@@ -31,7 +31,5 @@ imports:
   - metadata
   - naming
   - peer
-  - stats
-  - tap
   - transport
 testImports: []
