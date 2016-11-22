@@ -1,18 +1,18 @@
 hash: 25e82a6655e82e79a3bcbea44740b62e08e2162893d5fabcda8c254c3fab9843
-updated: 2016-11-22T12:52:51.659462344Z
+updated: 2016-11-22T16:09:34.303391655Z
 imports:
 - name: github.com/fortifi/proto
-  version: e5b6d49ecb30c3a67dd7aa03a964ca5bc19d9ece
+  version: 416188abfe92cb26c43bacd1580d5df3d9566b36
   repo: https://github.com/fortifi/proto.git
   vcs: git
 - name: github.com/golang/protobuf
-  version: 8ee79997227bf9b34611aee7946ae64735e6fd93
+  version: df1d3ca07d2d07bba352d5b73c4313b4e2a6203e
   subpackages:
   - proto
   - ptypes/duration
   - ptypes/timestamp
 - name: golang.org/x/net
-  version: 4971afdc2f162e82d185353533d3cf16188a9f4e
+  version: cf4effbb9db1f3ef07f7e1891402991b6afbb276
   subpackages:
   - context
   - http2
